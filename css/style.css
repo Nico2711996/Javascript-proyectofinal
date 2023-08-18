@@ -1,0 +1,21 @@
+
+.card {
+    border-color: blue;
+}
+
+.btn-agregar-carrito {
+    color: white;
+    background-color: blue;
+}
+
+.btn {
+    width: 100%;
+}
+
+.dark-theme {
+    background-color: black;
+}
+
+.dark-text {
+    color: white;
+}

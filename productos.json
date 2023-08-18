@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "nombreProducto": "Termo negro",
+      "descripcion": "Termo negro Stanley",
+      "precio": 20000,
+      "imagen": "../img/messirve.jpg"
+    },
+    {
+      "id": 2,
+      "nombreProducto": "Termo rosa",
+      "descripcion": "Termo rosa Stanley",
+      "precio": 25000,
+      "imagen": "../img/messirve.jpg"
+    },
+    {
+      "id": 3,
+      "nombreProducto": "Termo verde",
+      "descripcion": "Termo verde Stanley",
+      "precio": 20000,
+      "imagen": "../img/messirve.jpg"
+    },
+    {
+      "id": 4,
+      "nombreProducto": "Termo blanco",
+      "descripcion": "Termo blanco Stanley",
+      "precio": 20000,
+      "imagen": "../img/messirve.jpg"
+    },
+    {
+      "id": 5,
+      "nombreProducto": "Termo azul",
+      "descripcion": "Termo azul Stanley",
+      "precio": 25000,
+      "imagen": "../img/messirve.jpg"
+    },
+    {
+      "id": 6,
+      "nombreProducto": "Termo rojo",
+      "descripcion": "Termo rojo Stanley",
+      "precio": 20000,
+      "imagen": "../img/messirve.jpg"
+    }
+  ]
