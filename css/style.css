@@ -19,3 +19,24 @@
 .dark-text {
     color: white;
 }
+
+.productoEnCarrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .imagenProducto {
+    max-width: 100%;
+    height: 500px;
+  }
+  
+  .parrafo-de-producto {
+    margin-top: 5px;
+  }
+  
+  .buttonCarritoEliminar {
+    margin-top: 5px;
+  }

@@ -18,9 +18,16 @@ document.addEventListener("DOMContentLoaded", function () {
       };
   
       let registros = [];
-      registros.push(datoUsuario);
-  
-      console.log(registros);
-    });
+
+    if (localStorage.getItem("registros")) {
+      registros = JSON.parse(localStorage.getItem("registros"));
+    }
+
+    registros.push(datoUsuario);
+
+    localStorage.setItem("registros", JSON.stringify(registros));
+
+    console.log(registros);
   });
+});
   

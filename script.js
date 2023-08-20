@@ -3,6 +3,10 @@ let productosCards = document.getElementById("productCards")
 let carrito = [];
 let productos = [];
 
+if (localStorage.getItem("carrito")) {
+    carrito = JSON.parse(localStorage.getItem("carrito"));
+  }
+
 fetch("./productos.json")
     .then(response => response.json())
     .then(productos => {
@@ -25,7 +29,7 @@ for (let i = 0; i < productos.length; i++) {
 `;
   productosCards.innerHTML += cardBootstrap;
 }
-})
+
 
 
 let cantidadInputs = document.querySelectorAll('input[type="number"]')
@@ -64,6 +68,8 @@ function agregarAlCarrito(event) {
     } else {
         carrito.push({ ...producto, cantidad: producto.cantidad })
     }
+
+    localStorage.setItem("carrito", JSON.stringify(carrito));
 
     Swal.fire({
         icon: 'success',
@@ -154,4 +160,4 @@ function lightmode () {
             productosCards.innerHTML += cardBootstrap;
         });
     }
-    
+})
